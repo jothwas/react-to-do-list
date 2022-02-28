@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/Header";
+import ToDoForm from "./components/To-Do-Form";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Header />
+      <ToDoForm />
+    </>
+  );
 }
 
 export default App;
